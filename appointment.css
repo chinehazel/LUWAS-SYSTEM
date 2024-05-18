@@ -1,0 +1,132 @@
+/* Add your CSS styles here */
+body {
+
+    font-family: "Poppins", sans-serif;
+
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; /* Position relative for absolute positioning of logo */
+  }
+  
+
+
+  
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  select {
+    appearance: none;
+    background: url('data:image/svg+xml;utf8,<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path fill="%23333" d="M6.252 7.747L10 11.495l3.748-3.748a1 1 0 011.414 1.414l-4.5 4.5a1 1 0 01-1.414 0l-4.5-4.5a1 1 0 111.414-1.414z"/></svg>') no-repeat right 10px center/10px 10px; /* Custom dropdown arrow */
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .service-tiles {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .service-tile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .service-tile input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  .service-tile label {
+    cursor: pointer;
+  }
+  
+  .confirmation {
+    margin-top: 20px;
+    border-top: 2px solid #ccc;
+    padding-top: 20px;
+  }
+  
+  .confirmation h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .booking-details {
+    margin-bottom: 20px;
+  }
+  
+  .booking-details p {
+    margin-bottom: 5px;
+  }
+  
+  #confirm-booking {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #confirm-booking:hover {
+    background-color: #0056b3;
+  }
+
+
+  #back-button {
+    margin-top: 1rem;
+    background-color: #6c757d;
+  }
+  
+  #back-button:hover {
+    background-color: #5a6268;
+  }
+
+  .hidden {
+    display: none;
+  }
+  

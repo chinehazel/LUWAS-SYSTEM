@@ -1,0 +1,96 @@
+ /* Styles for the body element */
+body {
+    font-family: Arial, sans-serif; /* Font family */
+    background-color: #f8f8f8; /* Background color */
+    color: #333; /* Text color */
+    margin: 0; /* Remove margin */
+    padding: 20px; /* Add padding */
+}
+
+/* Styles for h1 elements */
+h1 {
+    color: #333; /* Color */
+}
+
+/* Styles for grid container */
+.container {
+    display: grid; /* Display as grid */
+    grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+    grid-gap: 10px; /* Gap between grid items */
+}
+
+/* Styles for grid columns */
+.column {
+    padding: 10px; /* Padding */
+    background-color: #f5f5f5; /* Background color */
+}
+
+/* Styles for spanning across columns */
+.column-span {
+    grid-column: 1 / span 3; /* Span across three columns */
+}
+
+/* Styles for form elements */
+form {
+    background-color: #fff; /* Background color */
+    border: 1px solid #ccc; /* Border */
+    border-radius: 4px; /* Border radius */
+    padding: 20px; /* Padding */
+    margin-bottom: 20px; /* Margin at the bottom */
+}
+
+/* Styles for form headings */
+form h3 {
+    margin-top: 0; /* Remove top margin */
+    margin-bottom: 10px; /* Bottom margin */
+}
+
+/* Styles for form labels */
+form label {
+    display: block; /* Display as block */
+    margin-bottom: 10px; /* Bottom margin */
+}
+
+/* Styles for form input fields */
+form input[type="text"],
+form input[type="email"],
+form input[type="number"] {
+    width: 97.5%; /* Width */
+    padding: 10px; /* Padding */
+    border: 1px solid #ccc; /* Border */
+    border-radius: 4px; /* Border radius */
+}
+
+/* Styles for form buttons */
+form button {
+    padding: 10px 20px; /* Padding */
+    background-color: #333; /* Background color */
+    color: #fff; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Border radius */
+    cursor: pointer; /* Cursor */
+}
+
+/* Styles for table */
+table {
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* Collapse borders */
+    margin-top: 20px; /* Margin at the top */
+}
+
+/* Styles for table headers and cells */
+table th,
+table td {
+    padding: 10px; /* Padding */
+    border: 1px solid #ccc; /* Border */
+}
+
+/* Styles for table headers */
+table th {
+    background-color: #f0f0f0; /* Background color */
+}
+
+/* Styles for last column alignment */
+table td:last-child {
+    text-align: center; /* Center alignment */
+}

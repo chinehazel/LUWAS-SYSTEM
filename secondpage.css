@@ -1,0 +1,447 @@
+:root {
+    --primary-color: rgb(45, 203, 224);
+    --primary-cololr-dark: rgb(89, 180, 255);
+    --secondary-color: rgb(15, 17, 141);
+    --text-dark: black;
+    --text-light: grey;
+    --extra-light: rgb(234, 242, 248);
+    --extra-light-light: rgb(203, 219, 233);
+    --max-width: 1200px;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif; /* Apply Poppins font to all text */
+}
+
+html, body {
+    overflow-x: hidden; /* Prevent horizontal scroll bars */
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.active {
+    color: blue;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+nav {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: rgb(216, 233, 255); /* Adjust the opacity */
+    backdrop-filter: blur(10px); /* Add a backdrop filter for blur effect */
+    z-index: 99;
+    transition: transform 0.3s ease;
+}
+
+.nav__content {
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 0.2rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo a {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    transition: .3s;
+}
+
+nav .logo a:hover {
+    color: var(--primary-cololr-dark);
+}
+
+nav .logo .logo-image {
+    width: 80px; /* Adjust the width as needed */
+    height: auto;
+    margin-right: 0.5rem;
+}
+
+nav .checkbox {
+    display: none;
+}
+
+nav input {
+    display: none;
+}
+
+nav .checkbox {
+    font-size: 1.2rem;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+}
+
+ul li a {
+    padding: 0.5rem 1.2rem;
+    border: 2px solid transparent;
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--primary-color);
+    transition: 0.3s;
+}
+
+ul li a:hover {
+    border-top-color: var(--secondary-color);
+    border-bottom-color: var(--secondary-color);
+    color: var(--secondary-color);
+}
+
+
+
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('img/head2.jpg');
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    text-align: center; /* Center-align text */
+}
+
+.header-content {
+    color: white;
+}
+
+.header-content h2 {
+    font-size: 9vmin;
+    margin-bottom: 10px;
+}
+
+.header-content h1 {
+    font-size: 3vmin;
+/* Adjust margin top as needed */
+    margin-bottom: 10px; /* Adjust margin bottom as needed */
+}
+
+@keyframes changeColor {
+    0% { color: red; }
+    20% { color: blue; }
+    40% { color: green; }
+    60% { color: yellow; }
+    80% { color: orange; }
+    100% { color: purple; }
+}
+
+.header-content:hover h1,
+.header-content:hover h2 {
+    animation: changeColor 1s infinite; /* Change text color every second infinitely */
+}
+
+
+
+.line {
+    width: 150px;
+    height: 4px;
+    background: blue;
+    margin: 10px auto; /* Center the line */
+    border-radius: 5px;
+}
+
+
+.header-content h1 {
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    padding: 8px 15px;
+    background: blue;
+    border-radius: 30px;
+    color: aliceblue;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+    background: linear-gradient(135deg, #007BFF, #00BFFF);
+    transform: scale(1.05);
+}
+
+.menu-btn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+
+.events {
+    padding: 50px;
+    background: #f4f4f4;
+    transition: background 0.3s; /* Add transition effect */
+}
+
+.events:hover {
+    background: linear-gradient(135deg, #585bf8, #a7d0f1); /* Change background color on hover */
+}
+
+.events .title h1 {
+    font-size: 2.5em; /* Increase the font size of the h1 element */
+    margin-bottom: 20px; 
+    font-weight: normal; /* Add some space below the heading */
+    color: black; /* Set the default color */
+    transition: color 0.3s; /* Add transition effect */
+}
+.events .title {
+    display: flex; /* Add flexbox */
+    flex-direction: column; /* Arrange children vertically */
+    align-items: center; /* Center items horizontally */
+    margin-bottom: 20px;
+}
+
+.events:hover .title h1 {
+    color: white; /* Change text color to white on hover */
+}
+
+
+
+.events .row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.events .col {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    transition: transform 0.3s;
+}
+
+.events .col:hover {
+    transform: translateY(-5px);
+}
+
+.events .col img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.events .col img:hover {
+    transform: scale(1.05);
+}
+
+
+.explore {
+    width: 100%;
+    height: 100vh;
+    background-image: url('./img/sand-sea-watercolor-texture-background\ \(1\).jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.explore-content {
+    width: 60%;
+    padding: 50px;
+    color: aliceblue;
+    align-items: center;
+    text-align: center; /* Center-align the text */
+}
+
+
+
+.explore-content p {
+    margin-top: 20px; /* Add space before the paragraph */
+    margin-bottom: 20px; /* Add space after the paragraph */
+    color: white;
+    font-size: 1.1em;
+    font-weight: normal;
+}
+.explore-content .ctn {
+    display: inline-block; /* Ensure the button is displayed */
+    padding: 10px 20px; /* Adjust padding */
+    background-color: blue; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius */
+    text-decoration: none; /* Remove underline */
+    font-size: 16px; /* Font size */
+}
+
+.explore-content .ctn:hover {
+    background-color: darkblue; /* Darken button color */
+}
+
+/* Increase the font size of the h1 element in the explore section */
+.explore-content h1 {
+    font-size: 3em; /* Adjust the font size as needed */
+}
+.explore-content .line {
+    width: 150px; /* Set the width of the line */
+    height: 4px; /* Set the height of the line */
+    background: blue; /* Set the color of the line */
+    margin-top: 20px; /* Adjust the margin above the line */
+    margin-bottom: 20px; /* Adjust the margin below the line */
+    border-radius: 5px; /* Add border radius for rounded corners */
+}
+
+.tours .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Ensures space between items */
+    align-items: center; /* Centers items vertically */
+  }
+  
+  .tours .row .col {
+    width: 45%; /* Adjusts the width of each column */
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+  }
+  
+  .tours .row .image-col {
+    order: 2; /* Ensures that the image column is second in order */
+    display: flex;
+    justify-content: flex-start; /* Aligns images to the left */
+    flex-wrap: wrap; /* Allows images to wrap within the column */
+  }
+  
+  .tours .row .content-col {
+    order: 1; /* Ensures that the content column is first in order */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content vertically */
+    max-width: 50%; /* Ensures the content doesn't extend too far to the right */
+    padding-left: 5%; /* Adds a slight padding to the left for better centering */
+  }
+  
+  .tours .image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Aligns images to the left */
+    align-items: center;
+    width: 100%;
+  }
+  
+  .image-gallery img {
+    width: 200px; /* Makes the image width 200px */
+    height: 200px; /* Makes the image height 200px to ensure they are square */
+    margin: 10px;
+    border-radius: 10px; /* Adds border radius for rounded corners */
+    transition: transform 0.3s, box-shadow 0.3s; /* Adds transition for smooth hover effect */
+  }
+  
+  .image-gallery img:hover {
+    transform: scale(1.1); /* Scales up the image slightly */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow effect */
+  }
+  
+/* Define styles for the active state */
+/* Define styles for the hover state */
+.tours .row .content-col:hover h1 {
+    color: #0056b3; /* Change text color on hover */
+    font-size: 3em; /* Increase font size on hover */
+}
+
+
+  
+  /* Styling for the button */
+  .tours .row .content-col .ctn {
+    align-self: flex-start; /* Aligns the button to the start of the content column */
+    margin-top: 20px; /* Adds some spacing above the button */
+    padding: 10px 20px; /* Adjusts the padding of the button */
+    background-color: #007BFF; /* Background color of the button */
+    color: white; /* Text color of the button */
+    border: none; /* Removes border */
+    border-radius: 5px; /* Adds rounded corners */
+    text-align: center; /* Centers text inside the button */
+    text-decoration: none; /* Removes underline from text */
+    font-size: 16px; /* Font size of the button text */
+    cursor: pointer; /* Changes cursor to pointer when hovering over the button */
+  }
+  
+  .tours .row .content-col .ctn:hover {
+    background-color: #0056b3; /* Darkens the button color on hover */
+  }
+  .tours .row .content-col h1:hover {
+    color: #0056b3; /* Change text color on hover */
+    font-size: 3em; /* Increase font size on hover */
+}
+
+  
+
+.footer {
+    width: 100%;
+    min-height: 100px;
+    padding: 20px 80px;
+    margin: 0;
+    background: rgb(80, 80, 122);
+    text-align: center;
+}
+
+.footer p {
+    color: white;
+    margin: 20px auto;
+}
+
+@media only screen and (max-width: 850px) {
+    .menu-btn {
+        display: block;
+    }
+    .navbar {
+        padding: 0;
+    }
+    .logo {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        background: blueviolet;
+        margin-top: -900px;
+        transition: all 0.5s ease;
+    }
+    .mobile-menu {
+        margin-top: 0;  
+        border-bottom-right-radius: 30%;
+    }
+    .nav-links li {
+        margin: 30px auto;
+    }
+    .events .row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .events .col {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+}
+
+
