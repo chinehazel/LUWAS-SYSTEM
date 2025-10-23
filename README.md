@@ -1,24 +1,12 @@
 # LUWAS-SYSTEM
-LUWAS is a comprehensive healthcare platform designed to bridge the gap in medical access, particularly for underprivileged and remote communities. By leveraging advanced technology, LUWAS ensures real-time access to medical specialists and guarantees that no one is left without necessary medical care.
+LUWAS is a web-based healthcare platform developed for our CCC181 – Application Development and Emerging Technologies (3E) course. The project focused on applying full-stack development principles, emphasizing hands-on experience in building dynamic web applications with integrated database systems. Through this project, we strengthened our technical proficiency in designing interactive interfaces, managing data flow between front-end and back-end components, and implementing responsive user experiences.
 
-### Key Features of LUWAS:
+Key Features and Technical Highlights
 
-1. **Real-Time Access to Medical Specialists:**
-   - **Telemedicine Integration:** Enables patients to connect with specialists via video consultations, ensuring timely medical advice and diagnosis.
-   - **24/7 Availability:** Specialists are available around the clock to provide care and support, addressing urgent medical needs promptly.
+- Telemedicine Module: Designed and integrated front-end components in React to simulate real-time video consultation functionality between patients and specialists.
 
-2. **User-Friendly Database Functionality:**
-   - **Centralized Medical Records:** Stores patient information securely, allowing for seamless access and updates by authorized medical personnel.
-   - **Data Security:** Ensures that all patient data is protected by robust encryption and security protocols, maintaining confidentiality and compliance with healthcare regulations.
+- Database Management: Built and connected a MySQL database to handle user records, appointment data, and insurance details securely.
 
-3. **Integrated Forms and Booking System:**
-   - **Insurance Card Submission:** A dedicated form for patients to upload their insurance information, which is securely stored in the database for easy access during consultations and treatments.
-   - **Appointment Booking:** A streamlined booking form that connects directly to the database, allowing patients to schedule appointments with ease and receive confirmations promptly.
+- Appointment and Form System: Developed interactive PHP-based forms with database connectivity for scheduling and information handling.
 
-4. **Comprehensive Web Pages:**
-   - **Homepage:** Offers an overview of LUWAS services, highlighting key features and benefits, with easy navigation to other sections of the website.
-   - **Contact Page:** Provides contact details and a form for inquiries, ensuring that users can reach out for support or additional information.
-   - **About Us Page:** Details the mission, vision, and values of LUWAS, along with information about the team and the platform's commitment to improving healthcare access.
-   - **Blogs Page:** Features informative articles on healthcare topics, tips for maintaining wellness, and updates on the latest medical advancements and LUWAS initiatives.
-
-LUWAS is committed to revolutionizing healthcare access by providing a seamless, integrated platform that connects patients with the care they need, when they need it, regardless of their location or financial status. Through innovative technology and a patient-centric approach, LUWAS ensures that quality medical care is within everyone's reach.
+- Front-End Design: Implemented responsive and accessible web pages (Home, About Us, Contact, Blogs) using HTML, CSS, and JavaScript to enhance user experience and navigation.
