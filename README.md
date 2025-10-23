@@ -11,4 +11,4 @@ Key Features and Technical Highlights
 
 - Front-End Design: Implemented responsive and accessible web pages (Home, About Us, Contact, Blogs) using HTML, CSS, and JavaScript to enhance user experience and navigation.
   
-The website was not deployed, this project provided valuable experience in HTML, CSS, JavaScript, React, PHP, and MySQL, strengthening our understanding of both front-end and back-end web development.
+The website was not deployed, this project provided valuable experience in HTML, CSS, JavaScript, PHP, and MySQL, strengthening our understanding of both front-end and back-end web development.
