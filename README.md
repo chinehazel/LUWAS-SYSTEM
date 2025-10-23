@@ -38,13 +38,3 @@ I **led the full-stack development**, focusing on:
 -  **Record Viewing** – Manage and track patient histories  
 - **Simple Interface** – Clean and responsive user interface  
 
----
-
-## 📸 Screenshots  
-*(Add images here once uploaded to the `/screenshots` folder)*  
-```markdown
-![Home Page](screenshots/Home%20(Alternative).jpg)
-![Home Page](screenshots/Home%20.jpg)
-![Book Appointment](screenshots/Book%20an%20Appointment.jpg)
-![Register Page](screenshots/Register.jpg)
-![Blogs Page](screenshots/Blogs.jpg)
