@@ -10,3 +10,5 @@ Key Features and Technical Highlights
 - Appointment and Form System: Developed interactive PHP-based forms with database connectivity for scheduling and information handling.
 
 - Front-End Design: Implemented responsive and accessible web pages (Home, About Us, Contact, Blogs) using HTML, CSS, and JavaScript to enhance user experience and navigation.
+  
+The website was not deployed, this project provided valuable experience in HTML, CSS, JavaScript, React, PHP, and MySQL, strengthening our understanding of both front-end and back-end web development.
