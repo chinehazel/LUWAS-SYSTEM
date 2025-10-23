@@ -1,14 +1,34 @@
-# LUWAS-SYSTEM
-LUWAS is a web-based healthcare platform developed for our CCC181 – Application Development and Emerging Technologies (3E) course. The project focused on applying full-stack development principles, emphasizing hands-on experience in building dynamic web applications with integrated database systems. Through this project, we strengthened our technical proficiency in designing interactive interfaces, managing data flow between front-end and back-end components, and implementing responsive user experiences.
+LUWAS (Linking Universal Wellness and Accessible Services) is a web-based healthcare platform developed to simulate telemedicine and patient record management.
+This project was created as part of our coursework to strengthen our skills in full-stack web development and database-driven applications.
 
-Key Features and Technical Highlights
+🩺 Project Overview
 
-- Telemedicine Module: Designed and integrated front-end components in React to simulate real-time video consultation functionality between patients and specialists.
+The LUWAS System aims to provide an accessible online healthcare service platform that connects patients with medical specialists and manages appointments, records, and inquiries efficiently.
+The system demonstrates essential features of a modern healthcare website, integrating both front-end and back-end components.
 
-- Database Management: Built and connected a MySQL database to handle user records, appointment data, and insurance details securely.
+⚙️ Key Features
 
-- Appointment and Form System: Developed interactive PHP-based forms with database connectivity for scheduling and information handling.
+Telemedicine Simulation: Enables online consultation functionality between patients and doctors.
 
-- Front-End Design: Implemented responsive and accessible web pages (Home, About Us, Contact, Blogs) using HTML, CSS, and JavaScript to enhance user experience and navigation.
-  
-This project provided valuable experience in HTML, CSS, JavaScript, PHP, and MySQL, strengthening our understanding of both front-end and back-end web development.
+User Registration & Login: Handles secure access for patients and administrators.
+
+Appointment Scheduling: Allows patients to set, view, and manage appointments through the system.
+
+Database Integration: Stores and retrieves patient and appointment records via MySQL.
+
+Informative Pages: Includes Home, About, Contact, and Blog pages designed with responsive layouts.
+
+🧰 Tech Stack
+
+Front-End: HTML, CSS, JavaScript
+Back-End: PHP
+Database: MySQL
+
+📁 Project Structure
+
+The project is modularized into several PHP, CSS, and JavaScript files to manage different functionalities (e.g., appointments, user registration, and page layouts).
+Each page component interacts with the MySQL database for dynamic content rendering.
+
+💡 Learning Outcome
+
+This project provided hands-on experience in designing responsive web interfaces, managing database connectivity, and implementing front-end and back-end integration for a complete web application.
